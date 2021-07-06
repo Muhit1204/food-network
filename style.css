@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    box-sizing: border-box;
 }
 
 *{
@@ -57,4 +58,115 @@ nav .content .links{
   background: #323c4e;
 }
 
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width{
+    margin-top: 80px;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width-left{
+    margin-top: 220px;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+    color: #404040;
+}
+
+h2{
+    font-size: 35px;
+    color: #404040;
+}
+
+h3{
+    font-size: 30px;
+    color: #404040;
+    text-align: center;
+}
+
+.top-banner{
+    width: 500px;
+    height: 550px;
+}
+
+h1 span{
+    color: orange;
+}
+
+
+
+.half-width-left p span{
+    color: #808080;
+}
+
+.half-width p span{
+    color: #323c4e;
+}
+
+.anchor-btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    margin-top: 100px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+
+}
+
+.mid-section{
+    background-image: url(images/shapes/7.png);
+    margin-top: 200px;
+    width: 1310s0px;
+    height: 600px;
+}
+
+.mid-section-cover{
+    width: 300px;
+    height: 430px;
+    margin-left: 200px ;
+}
+
+.recipe-section{
+    margin-top: 100px;
+}
+.recipe-section p {
+    margin-top: 40px;
+    color: #808080;
+    text-align: center;
+}
+
+.float-container {
+    display: flex;
+  }
+
+.left-pane{
+    
+    flex: 1;
+}
+
+.middle-pane{
+    
+    flex: 1;
+}
+
+.right-pane{
+    
+    flex: 1;
+}
+
+.recipe-img{
+    width: 337px;
+    height: 256px;
+}
 
