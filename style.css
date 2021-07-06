@@ -107,6 +107,10 @@ h1 span{
     color: orange;
 }
 
+h2 span{
+    text-align: center;
+    color: #171c24;
+}
 
 
 .half-width-left p span{
@@ -120,7 +124,7 @@ h1 span{
 .anchor-btn{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -214,17 +218,82 @@ h1 span{
     flex: 1;
 }
 
-footer{
-    display: flex;
-    background-color: #171c24;
-    height: 256px;
+
+
+.newsletter-section{
+    padding: 0px 30px 30px 30px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
 }
 
-.left-footer{
-    flex: 1;
-    margin: 20px 0px 0px 50px;
+.newsletter-section p span{
+    margin-top: 5px;
+    color: #404040;
 }
-.right-footer{
-    flex: 1;
+ #mail{
+    width: 80%;
+    padding: 12px;
+    margin: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+ }
+
+ footer{
+    
+    background-color: #171c24;
+    height: 256px;
+    
 }
+
+.footer-container{
+    margin: auto;
+    width: 50%;
+    padding: 10px
+   
+}
+
+#footer-text{
+    color: #e6e6e6;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .social-media{
+
+    margin: auto;
+    width:30%;
+    
+    padding: 10px;
+  }
+
+#copyright{
+    color: #e6e6e6;
+    font-size: 12px;
+}
+
 
